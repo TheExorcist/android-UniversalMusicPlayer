@@ -3,4 +3,4 @@ test:
   - whoami
   - hostname
   - touch file
-  - cd && grep apk
+  - ls
