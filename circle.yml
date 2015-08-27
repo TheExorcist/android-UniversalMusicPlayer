@@ -5,4 +5,4 @@ test:
   - touch file
   - ls
  post:
-	- cp -R ./build.gradle $CIRCLE_ARTIFACTS
+  - cp -R ./build.gradle $CIRCLE_ARTIFACTS
