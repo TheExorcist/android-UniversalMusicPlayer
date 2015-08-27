@@ -3,3 +3,4 @@ test:
   - whoami
   - hostname
   - touch file
+  - ls 
