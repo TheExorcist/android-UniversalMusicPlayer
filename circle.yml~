@@ -4,3 +4,5 @@ test:
   - hostname
   - touch file
   - ls
+ post:
+	- cp -R ./build.gradle $CIRCLE_ARTIFACTS
